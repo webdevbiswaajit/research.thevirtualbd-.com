@@ -95,3 +95,76 @@
 
 
 /* ===================swiper================ */
+
+
+/* =================recharcher=========================== */
+
+/* Post swiper */
+.recharchSwiper .swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+.recharchSwiper .swiper-button-next,
+.recharchSwiper .swiper-rtl .swiper-button-prev {
+    right: 0px !important;
+    left: 40px !important;
+
+}
+
+.recharchSwiper .swiper-button-prev,
+.recharchSwiper .swiper-rtl .swiper-button-next {
+    left: 0px !important;
+}
+
+
+.recharchSwiper .swiper-button-next,
+.recharchSwiper .swiper-button-prev {
+    top: 92% !important;
+}
+
+.recharchSwiper .swiper-button-next:after,
+.recharchSwiper.swiper-button-prev:after {
+    font-size: 10px !important;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #3498DB;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.recharchSwiper .swiper-button-next:after,
+.recharchSwiper .swiper-button-prev:after {
+    font-size: 10px !important;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #3498DB;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+.recharchSwiper .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    padding-bottom: 95px;
+}
