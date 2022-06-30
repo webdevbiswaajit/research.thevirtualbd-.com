@@ -714,7 +714,7 @@ body {
     .doiDes h2 {
         font-size: 25px;
         line-height: 25px;
-        text-align: center;
+        text-align: start;
     }
 
     .doiDes p {
@@ -889,7 +889,7 @@ body {
 
     .doiShare {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         margin-top: -20px;
     }
 
@@ -899,8 +899,8 @@ body {
     }
 
     .recharch_text h2 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 25px;
+        line-height: 25px;
     }
 
     .rcard_img {
