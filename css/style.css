@@ -534,7 +534,12 @@ body {
     background-color: #2C3E50;
     padding-top: 35px;
     padding-bottom: 35px;
-    margin-top: 70px;
+    margin-top: -5px;
+}
+
+.recharch_container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .fottter_left a {
@@ -832,7 +837,7 @@ body {
     }
 
     .hero h2 {
-        margin-top: 20px;
+        margin-top: 8px;
         font-size: 50px;
         line-height: 60px;
         text-align: justify;
@@ -934,12 +939,12 @@ body {
     }
 
     .recharch_sector h2 {
-        text-align: center;
+        text-align: left;
         font-size: 18px;
     }
 
     .area_list {
-        text-align: center;
+        text-align: left;
         margin-top: -10px;
     }
 
@@ -953,13 +958,14 @@ body {
     }
 
     .quick_link h2 {
-        text-align: center;
+        text-align: start;
+        margin-top: 10px;
         font-size: 18px;
         line-height: 18px;
     }
 
     .quick_list a {
-        text-align: center;
+        text-align: start;
     }
 
 
