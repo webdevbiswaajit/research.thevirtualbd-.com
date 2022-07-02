@@ -1,0 +1,95 @@
+.our_recharcher {
+    margin-top: 60px;
+}
+
+.meet_our_recharcher {
+    background-color: #2C3E50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.meet_our_recharcher h2 {
+
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.recharcher-bio {
+    display: flex;
+    justify-content: center;
+}
+
+.recharcher-bio button {
+    background-color: transparent;
+    border: none;
+    color: #3698DB;
+    font-size: 14px;
+
+}
+
+.recharcher-bio button:hover {
+    color: #fff;
+}
+
+.recharcher_info {
+    position: relative;
+}
+
+.recharcher_info h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    color: #2C3E50;
+}
+
+.recharcher_info p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C3E50;
+    text-align: justify;
+}
+
+.modal-footer a {
+    font-size: 25px;
+    transition: .2s all ease;
+    -webkit-transition: .2s all ease;
+    -moz-transition: .2s all ease;
+    -ms-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    color: #2C3E50;
+    cursor: pointer;
+}
+
+.modal-footer a:hover {
+    color: #3698DB;
+}
+
+.recharcher_logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -45px;
+    right: 0px;
+
+}
+
+.recharcher_logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-start !important;
+
+
+}
