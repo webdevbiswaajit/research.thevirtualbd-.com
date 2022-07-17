@@ -44,7 +44,7 @@ body {
 
 
 
-.nav_left img {}
+
 
 .nav_left span {
     color: #3498DB;
@@ -253,9 +253,19 @@ body {
     color: #2C3E50;
 }
 
-.doiDes span a {
+.read_more {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.read_more a {
+    background: #2C3E50;
+    border-radius: 3px;
+    color: #fff;
     text-decoration: none;
-    color: #22B4FF;
+    padding: 10px 30px;
+
 }
 
 .doiShare {
