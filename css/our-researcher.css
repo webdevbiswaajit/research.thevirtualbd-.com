@@ -71,9 +71,11 @@
 .recharcher_logo {
     width: 100px;
     height: 100px;
+    background: #fff;
     position: absolute;
     top: -45px;
     right: 0px;
+    border-radius: 50%;
 
 }
 
