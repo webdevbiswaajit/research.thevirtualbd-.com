@@ -38,19 +38,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 80px;
 
 }
 
 
 
-.nav_left a {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 28px;
-    color: #2C3E50;
-    text-decoration: none;
-}
+.nav_left img {}
 
 .nav_left span {
     color: #3498DB;
