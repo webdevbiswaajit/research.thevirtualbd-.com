@@ -198,11 +198,37 @@
     color: #2C3E50;
 }
 
-.abostrac span a {
-    text-decoration: none;
-    color: #22B4FF;
+.read_more {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
 
+.read_more a {
+    background: #2C3E50;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
 
+}
+
+.doi-gap {
+    margin-top: 40px;
+}
+
+.shareSocial button {
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+}
+
+#copy-message {
+    margin: 0;
+    margin-top: 5px;
+    color: #218838;
+    transition: .3s all ease;
+}
 
 /* ==============Article List====================== */

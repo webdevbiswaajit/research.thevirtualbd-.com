@@ -297,6 +297,20 @@ body {
     color: #3498DB;
 }
 
+.shareSocial button {
+    outline: none;
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+}
+
+#copy-message {
+    margin: 0;
+    margin-top: 5px;
+    color: #218838;
+    transition: .3s all ease;
+}
+
 /* ===========recentPublish===== */
 
 .recentPublish {
@@ -361,12 +375,14 @@ body {
     -o-border-radius: 3px;
 }
 
-.publish_des h2 {
+.publish_des a {
     margin-top: 10px;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     color: #2C3E50;
+    text-decoration: none;
+    display: block;
 }
 
 .publish_des p {
@@ -375,17 +391,19 @@ body {
     line-height: 20px;
     text-align: justify;
     color: #2C3E50;
+
 }
 
 .pub_aut_info {
     display: block;
-    padding: 0px 32px 20px 32px;
+    padding: 0px 32px 36px 32px;
 }
 
 .pub_aut_info p {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+    margin-top: 5px;
     color: #2C3E50;
 }
 
