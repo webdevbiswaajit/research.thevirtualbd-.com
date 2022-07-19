@@ -1004,7 +1004,7 @@ body {
 /* =========================Responsive================ */
 @media (min-width: 320px) {
     .hero_area {
-        height: 25vh;
+        height: 15vh;
     }
 
     .hero {
@@ -1017,6 +1017,14 @@ body {
         font-size: 30px;
         line-height: 32px;
 
+    }
+
+    .doiTop p {
+        line-height: 20px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 10px;
+        font-weight: 400;
     }
 
     .doiTop h2 {
