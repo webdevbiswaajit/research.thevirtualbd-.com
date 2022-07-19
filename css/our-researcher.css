@@ -2,6 +2,8 @@
     margin-top: 60px;
 }
 
+
+
 .meet_our_recharcher {
     background-color: #2C3E50;
     padding-top: 60px;
@@ -19,7 +21,7 @@
 
 .recharcher-bio {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .recharcher-bio button {
@@ -28,6 +30,12 @@
     color: #3698DB;
     font-size: 14px;
 
+}
+
+.publication_link a {
+    color: #3698DB;
+    font-size: 14px;
+    text-decoration: none;
 }
 
 .recharcher-bio button:hover {
@@ -96,10 +104,27 @@
 
 }
 
+@media screen and (max-width: 320px) {
+    .meet_our_recharcher {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .meet_our_recharcher h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .meet_our_recharcher h2 {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .meet_our_recharcher h2 {
+        font-size: 35px;
+        line-height: 45px;
 
     }
 

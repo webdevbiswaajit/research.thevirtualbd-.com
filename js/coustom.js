@@ -35,16 +35,20 @@ var swiper = new Swiper(".postSwiper", {
       spaceBetween: 10,
     },
     "@0.75": {
-      slidesPerView: 2,
-      spaceBetween: 30,
+      slidesPerView: 1,
+      spaceBetween: 10,
     },
     "@1.00": {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     "@1.50": {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    "@2.00": {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 10,
     },
   },
 
@@ -70,15 +74,19 @@ var swiper = new Swiper(".recharchSwiper", {
     },
     "@0.75": {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: 10,
     },
     "@1.00": {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 30,
     },
     "@1.50": {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    "@2.00": {
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 10,
     },
   },
 

@@ -201,7 +201,109 @@ p {
     background: #3498DB;
 }
 
+/* ====================responsive================== */
+@media screen and (max-width:320px) {
+    .author_hero {
+        background: #2C3E50;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 
+    .author_hero_txt h2 {
+        font-size: 20px;
+        line-height: 20px;
+
+    }
+
+    .author_page_content {
+        padding: 0;
+    }
+
+    .auth_info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .auth_study_info {
+        margin-top: 100px;
+    }
+
+    .author_dec {
+        margin-left: 0;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .auth_social {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .author_hero_txt h2 {
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .author_hero {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .author_page_content {
+        padding: 0;
+    }
+
+    .auth_info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .author_hero_txt h2 {
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .author_hero {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .author_page_content {
+        padding: 0;
+    }
+
+    .auth_info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .author_page_content {
+        padding: 0;
+    }
+}
 
 
 
