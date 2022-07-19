@@ -73,7 +73,7 @@ var swiper = new Swiper(".recharchSwiper", {
       spaceBetween: 30,
     },
     "@1.00": {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 30,
     },
     "@1.50": {
