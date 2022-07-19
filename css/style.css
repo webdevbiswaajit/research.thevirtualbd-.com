@@ -1244,6 +1244,7 @@ body {
     }
 }
 
+/* ===================== */
 @media screen and (max-width:768px) {
 
 
@@ -1281,26 +1282,4 @@ body {
     .nav_left a {
         font-size: 24px;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.gap {
-    margin-top: 300px;
 }
