@@ -1007,6 +1007,11 @@ body {
         height: 25vh;
     }
 
+    .hero {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
     .hero h2 {
         margin-top: 20px;
         font-size: 30px;
@@ -1145,7 +1150,7 @@ body {
 
     .hero {
         padding-top: 60px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .hero h2 {
