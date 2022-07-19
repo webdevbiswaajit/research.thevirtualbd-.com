@@ -1004,12 +1004,12 @@ body {
 /* =========================Responsive================ */
 @media (min-width: 320px) {
     .hero_area {
-        height: 15vh;
+        height: 25vh;
     }
 
     .hero {
         padding-top: 30px;
-        padding-bottom: 30px;
+
     }
 
     .hero h2 {
