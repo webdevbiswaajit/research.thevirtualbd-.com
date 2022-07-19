@@ -1004,7 +1004,7 @@ body {
 /* =========================Responsive================ */
 @media (min-width: 320px) {
     .hero_area {
-        height: 25vh;
+        height: 160px
     }
 
     .hero {
