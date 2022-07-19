@@ -286,6 +286,7 @@
 
     .publish_des_read {
         padding: 20px 20px 0px 20px;
+        text-align: left;
     }
 
     .pub_aut_info_read {
@@ -395,5 +396,9 @@
         font-size: 16px;
         line-height: 16px;
 
+    }
+
+    .ariticale_details {
+        text-align: left;
     }
 }
